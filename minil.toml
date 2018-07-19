@@ -1,6 +1,7 @@
 name = "CPP-ProjectGenerator"
-# badges = ["travis"]
+badges = ["travis"]
 authority="cpan:NUKOSUKE"
+license="freebsd"
 
 module_maker="ModuleBuildTiny"
 static_install = "auto"
