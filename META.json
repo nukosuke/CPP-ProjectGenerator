@@ -6,7 +6,7 @@
    "dynamic_config" : 0,
    "generated_by" : "Minilla/v3.1.2, CPAN::Meta::Converter version 2.150005",
    "license" : [
-      "perl_5"
+      "freebsd"
    ],
    "meta-spec" : {
       "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
@@ -33,6 +33,7 @@
       },
       "develop" : {
          "requires" : {
+            "Software::License" : "0",
             "Test::CPAN::Meta" : "0",
             "Test::MinimumVersion::Fast" : "0.04",
             "Test::PAUSE::Permissions" : "0.04",
@@ -42,6 +43,9 @@
       },
       "runtime" : {
          "requires" : {
+            "Getopt::Long" : "2.50",
+            "Pod::Usage" : "1.69",
+            "Text::Template" : "1.53",
             "perl" : "5.008001"
          }
       },
@@ -52,8 +56,22 @@
       }
    },
    "release_status" : "unstable",
+   "resources" : {
+      "bugtracker" : {
+         "web" : "https://github.com/nukosuke/CPP-ProjectGenerator/issues"
+      },
+      "homepage" : "https://github.com/nukosuke/CPP-ProjectGenerator",
+      "repository" : {
+         "type" : "git",
+         "url" : "git://github.com/nukosuke/CPP-ProjectGenerator.git",
+         "web" : "https://github.com/nukosuke/CPP-ProjectGenerator"
+      }
+   },
    "version" : "0.01",
    "x_authority" : "cpan:NUKOSUKE",
+   "x_contributors" : [
+      "nukosuke <39.nuko@gmail.com>"
+   ],
    "x_serialization_backend" : "JSON::PP version 2.27300",
    "x_static_install" : 1
 }

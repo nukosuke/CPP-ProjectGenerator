@@ -1,3 +1,4 @@
+[![Build Status](https://travis-ci.org/nukosuke/CPP-ProjectGenerator.svg?branch=master)](https://travis-ci.org/nukosuke/CPP-ProjectGenerator)
 # NAME
 
 CPP::ProjectGenerator - It's new $module
@@ -14,8 +15,7 @@ CPP::ProjectGenerator is ...
 
 Copyright (C) nukosuke.
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
+BSD 2-Clause License
 
 # AUTHOR
 
